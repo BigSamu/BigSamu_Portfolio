@@ -8,7 +8,7 @@ import profilePicture from '/assets/bigsamu.png';
 
 const Intro = () => {
   return (
-    <div className="min-h-[calc(100vh-56px)] grid place-items-center py-10">
+    <div className="min-h-[calc(100vh-60px)] grid place-items-center py-5">
       <div className="flex flex-col items-center text-center">
         <img
           src={profilePicture}
@@ -22,14 +22,12 @@ const Intro = () => {
         <p className="text-base md:text-xl mb-3 font-medium">
           Software Engineer | Full-Stack Developer | AI & Blockchain Enthusiast
         </p>
-        <p className="text-sm max-w-xl mb-4 font-bold">
+        <p className="text-sm max-w-xl mb-3 font-bold">
           Engineer with 6+ years of experience in Finance and Hardware
-          solutions, concluding a career shift into Software Development. Avid
+          solutions, concluding a career shift into Software Engineering. Avid
           learner and self-disciplined with solid communication skills. Looking
           for entry-level positions in high-performant Software Engineering
-          teams, preferably working with Full-Stack technologies. Strong
-          knowledge of ReactJS and FastAPI frameworks, with a preference for
-          Javascript and Python languages (but not exclusive)
+          teams, preferably working with Full-Stack technologies. 
         </p>
 
         <div className="flex flex-col md:flex-row items-center md:gap-x-1">
@@ -102,12 +100,12 @@ const Intro = () => {
           </a>
         </div>
 
-        <div className="mt-5">
+        <div className="mt-3">
           <a
             href="https://1drv.ms/b/s!Asber9wcpjf8j4V8pIIOGza9O14Zlw?e=axa6vD"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center text-2xl py-2 px-10 font-medium rounded-lg text-white bg-gradient-to-r from-yellow-500 to-pink-500 drop-shadow-md hover:from-pink-500 hover:to-yellow-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-pink-500 transition-all"
+            className="flex items-center text-xl py-2 px-10 font-medium rounded-lg text-white bg-gradient-to-r from-yellow-500 to-pink-500 drop-shadow-md hover:from-pink-500 hover:to-yellow-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-pink-500 transition-all"
           >
             <ImProfile />
             <span className="text-xl ml-2">My CV</span>

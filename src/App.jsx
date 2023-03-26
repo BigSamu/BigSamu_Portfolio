@@ -14,18 +14,23 @@ const App = () => {
         <Element name="hero_section">
           <Hero />
         </Element>
+        {/* <hr className="border border-stone-200 dark:border-white" /> */}
         <Element name="about_section">
           <About />
         </Element>
+        {/* <hr className="border border-stone-200 dark:border-white" /> */}
         <Element name="projects_section">
           <Portfolio />
         </Element>
+        {/* <hr className="border border-stone-200 dark:border-white" /> */}
         <Element name="timeline_section">
           <Timeline />
         </Element>
+        {/* <hr className="border border-stone-200 dark:border-white" /> */}
         <Element name="contact_section">
           <Contact />
         </Element>
+        {/* <hr className="border border-stone-200 dark:border-white" /> */}
       </Layout>
     </div>
   );

@@ -3,7 +3,7 @@ import SectionTitle from './SectionTitle';
 
 function Contact() {
   return (
-    <div className="min-h-[calc(100vh-56px-116px)] grid place-items-center py-10">
+    <div className="min-h-[calc(100vh-60px-78px)] grid place-items-center py-10">
       <div className="w-full md:max-w-2xl mx-auto">
         <SectionTitle>Contact Me</SectionTitle>
         <p className="text-justify pb-3">
@@ -19,7 +19,7 @@ function Contact() {
         <form
           action="https://getform.io/f/d2010f57-f8bf-4041-8dd5-57375469d392"
           method="POST"
-          className="flex flex-col w-full space-y-4 bg-white dark:bg-gray-800 p-8 rounded-lg shadow-md"
+          className="flex flex-col w-full space-y-4 bg-white dark:bg-gray-800 p-8 rounded-lg"
         >
           <input
             type="text"
@@ -36,7 +36,7 @@ function Contact() {
           <textarea
             name="message"
             placeholder="Message"
-            rows="8"
+            rows="6"
             className="p-3 bg-transparent border-2 rounded-lg focus:outline-none focus:border-yellow-500 hover:border-yellow-500 transition-all"
           />
           <button

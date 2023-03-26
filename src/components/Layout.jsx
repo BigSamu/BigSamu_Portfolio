@@ -1,6 +1,6 @@
 // src/components/Layout.jsx
 import React,{ useState, useEffect } from 'react';
-import Navbar from './Navbar';
+import Header from './Header';
 import Footer from './Footer';
 
 const Layout = ({ children }) => {
@@ -24,8 +24,8 @@ const Layout = ({ children }) => {
 
   return (
     <div className="bg-white dark:bg-stone-900 text-stone-900 dark:text-stone-300 min-h-screen font-inter">
-      <Navbar theme={theme} setTheme={setTheme}/>
-      <main className="container mx-auto p-5">{children}</main>
+      <Header theme={theme} setTheme={setTheme}/>
+      <main className="container mx-auto px-5">{children}</main>
       <Footer />
     </div>
   );

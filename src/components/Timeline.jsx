@@ -6,9 +6,9 @@ import timeline from '../data/timeline';
 
 const Timeline = () => {
   return (
-    <div className="min-h-[calc(100vh-56px)] py-10 text-center md:text-left">
+    <div className="min-h-[calc(100vh-60px)] py-10 text-center md:text-left">
          <div className="w-full md:w-9/12 md:max-w-2xl mx-auto">
-            <SectionTitle>My Timeline</SectionTitle>
+            <SectionTitle>My Professional Path</SectionTitle>
            
             {timeline.map((item,idx) => (
                <TimelineItem 
