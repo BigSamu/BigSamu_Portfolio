@@ -26,4 +26,3 @@ jobs:
           FOLDER: dist # The directory where your assets are generated
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Github will automatically ad this token
           MESSAGE: "Build: {{sha}} {msg}}" # The commit message
-        
