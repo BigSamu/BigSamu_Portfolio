@@ -2,6 +2,7 @@ import React from 'react';
 import { getTechnologyIcon } from '../utils/TechnologyIcon.jsx';
 
 const PortfolioItem = ({project}) => {
+
   return (
     <div className="flex flex-col bg-white dark:bg-gray-900 shadow-md rounded-md p-4">
       <img
@@ -25,14 +26,19 @@ const PortfolioItem = ({project}) => {
           </li>
         ))}
       </ul>
-      <a
-        href={project.link}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-blue-500 hover:text-blue-600 dark:text-blue-300 dark:hover:text-blue-400"
-      >
-        View Project
-      </a>
+      { project.repo 
+        ?
+        <a
+          href={project.repo}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-500 hover:text-blue-600 dark:text-blue-300 dark:hover:text-blue-400"
+        >
+          View Project
+        </a>
+        :
+        <span className="italic">Project under NDA</span>
+      }
     </div>
   );
 };

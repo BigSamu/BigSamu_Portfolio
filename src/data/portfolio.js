@@ -22,7 +22,7 @@ export default [
        title: "TeachingML - Kaggle Style",
        imgUrl: "/assets/projects/teachingml_kaggle_style.png",
        stack: ["HTML", "JavaScript","ReactJS","MaterialUI","Redux"],
-       repo: "",
+       repo: "https://github.com/BigSamu/Teaching_ML_Kaggle_Style",
        demo:"",
        details: "Web Application intended for clarifying ML overfitting concept to students from Imperial College Business School. As part of group project from MSc degree being in charge of frontend side",
        type: "MSc CS degree - Group Project (2021)"
