@@ -1,5 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Element } from 'react-scroll';
+import { ToastProvider } from './contexts/ToastContext';
+
 import Layout from './components/Layout';
 import Hero from './components/Hero';
 import About from './components/About';
@@ -9,7 +11,7 @@ import Timeline from './components/Timeline';
 
 const App = () => {
   return (
-    <div>
+    <ToastProvider>
       <Layout>
         <Element name="hero_section">
           <Hero />
@@ -32,7 +34,7 @@ const App = () => {
         </Element>
         {/* <hr className="border border-stone-200 dark:border-white" /> */}
       </Layout>
-    </div>
+    </ToastProvider>
   );
 };
 
