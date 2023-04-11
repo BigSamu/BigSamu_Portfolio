@@ -67,8 +67,9 @@ const Navbar = ({ theme, setTheme }) => {
               <div className="flex flex-1 items-center justify-center ">
                 <div className="hidden sm:block">
                   <div className="flex space-x-4">
-                    {navigation.map((item) => (
+                    {navigation.map((item, idx) => (
                       <Link
+                        key={idx}
                         activeClass="border-b-2"
                         to={item.href}
                         spy={true}
@@ -120,8 +121,8 @@ const Navbar = ({ theme, setTheme }) => {
           <Disclosure.Panel className="sm:hidden">
             <div className="space-y-1 px-2 py-3">
               <div className="flex flex-col space-y-4">
-                {navigation.map((item) => (
-                  <div>
+                {navigation.map((item, idx) => (
+                  <div key={idx}>
                     <Link
                       activeClass="border-b-2"
                       to={item.href}
