@@ -13,7 +13,7 @@ const Header = ({ theme, setTheme }) => {
     setIsDarkMode(!isDarkMode);
   };
 
-  const offset_navbar = -60;
+  const offset_navbar = -64;
   
   return (
     <div className="sticky top-0 left-0 w-full z-50 py-1 !bg-stone-900">
@@ -23,7 +23,7 @@ const Header = ({ theme, setTheme }) => {
       >
         <div>
           <Link
-            to="hero_section"
+            to="hero_section" 
             spy={true}
             smooth={true}
             offset={offset_navbar}
