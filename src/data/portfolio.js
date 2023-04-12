@@ -2,7 +2,7 @@ export default [
   {
     title: 'Themis Studio',
     imgUrl: '/assets/projects/themis_studio.jpeg',
-    stack: ['HTML', 'JavaScript', 'NextJS', 'MaterialUI', 'OpenAI'],
+    stack: ['HTML', 'TypeScript', 'NextJS', 'MaterialUI', 'OpenAI'],
     repo: '',
     demo: '',
     details:
@@ -17,7 +17,7 @@ export default [
     repo: 'https://github.com/BigSamu/Teaching_ML_Kaggle_Style',
     demo: 'https://anamariagutierrez.art',
     details:
-      'My first client! A web portfolio for my mother who is an artist! Powered by ReactJS, ViteJS and TailwindCSS grabing data from iCloud Photos API',
+      'My first client! A web portfolio for my mother who is an artist! Powered by ReactJS, ViteJS and TailwindCSS and grabing data from iCloud Photos API.',
     type: 'Solo Project (2023) - In Progress',
     
   },
@@ -52,6 +52,17 @@ export default [
     details:
       'Web Application intended for clarifying ML overfitting concept to students from Imperial College Business School. As part of group project from MSc degree being in charge of frontend side',
     type: 'MSc CS degree - Group Project (2021)',
+    
+  },
+  {
+    title: '567 Bakery',
+    imgUrl: '/assets/projects/567_bakery_2.png',
+    stack: ['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'Sass', 'Jquery', 'Swiper'],
+    repo: 'https://github.com/BigSamu/567_Bakery',
+    demo: 'https://bigsamu.github.io/567_Bakery/',
+    details:
+      'My first ende-to-end project! A simple vanilla website for a local bakery in my hometown. Implement all learnings from my Bootcamp at Coding Dojo including external libraries such as Bootstrap, Saas, JQuery and Saas.',
+    type: 'Online Bootcamp - Final Project (2020)',
     
   },
 ];

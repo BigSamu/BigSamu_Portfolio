@@ -1,13 +1,13 @@
 import React from 'react';
 import {
-  FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaPython, FaNodeJs, FaJava, FaEthereum, FaGem, FaNpm,
-  FaBootstrap, FaCogs, FaRobot, FaDatabase, FaSass, FaAws, FaGithub
+  FaHtml5, FaCss3Alt,FaReact, FaPython, FaNodeJs, FaJava, FaEthereum, FaGem, FaNpm,
+  FaBootstrap, FaSass, FaAws, FaGithub
 } from 'react-icons/fa';
 import {
   DiDjango, DiRuby, DiPostgresql, DiMysql, DiSqllite
 } from 'react-icons/di';
 import {
-  SiNextdotjs, SiVite, SiTailwindcss, SiCplusplus, SiExpress, SiSpring, SiFastapi, SiFlask, SiMongodb, SiSolidity, SiRubysinatra, SiPypi, SiMui, SiOpenai, SiRedux, SiJsonwebtokens, SiWireshark
+  SiJavascript, SiTypescript, SiJquery, SiSwiper, SiGooglefonts,SiFontawesome, SiNextdotjs, SiVite, SiTailwindcss, SiCplusplus, SiExpress, SiSpring, SiFastapi, SiFlask, SiMongodb, SiSolidity, SiRubysinatra, SiPypi, SiMui, SiOpenai, SiRedux, SiJsonwebtokens, SiWireshark
 } from 'react-icons/si';
 import {
   TbBrandVscode
@@ -15,16 +15,19 @@ import {
 
 export const getTechnologyIcon = (technology) => {
   const iconMap = {
-    // Programming languages
+    // Programming languages and fonts
     'HTML': <FaHtml5 />,
     'CSS': <FaCss3Alt />,
-    'JavaScript': <FaJsSquare />,
+    'JavaScript': <SiJavascript />,
+    'TypeScript': <SiTypescript />,
     'Python': <FaPython />,
     'Java': <FaJava />,
     'C++': <SiCplusplus />,
     'Solidity': <SiSolidity />,
     'Ruby': <DiRuby />,
     'Sass': <FaSass />,
+    'FontAwesome': <SiFontawesome />,
+    'Google Fonts': <SiGooglefonts />,
     
     // Frameworks and libraries
     'ReactJS': <FaReact />,
@@ -41,7 +44,10 @@ export const getTechnologyIcon = (technology) => {
     'Flask': <SiFlask />,
     'Sinatra': <SiRubysinatra />,
     'Redux': <SiRedux />,
+    'Jquery': <SiJquery />,
+    'Swiper': <SiSwiper/>,
     
+
     // Databases
     'MongoDB': <SiMongodb />,
     'SQLite': <DiSqllite />,
