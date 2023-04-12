@@ -39,6 +39,19 @@ const PortfolioItem = ({project}) => {
         :
         <span className="italic">Project under NDA</span>
       }
+      { project.demo 
+        ?
+        <a
+          href={project.demo}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-500 hover:text-blue-600 dark:text-blue-300 dark:hover:text-blue-400"
+        >
+          Demo
+        </a>
+        :
+        ""
+      }
     </div>
   );
 };
