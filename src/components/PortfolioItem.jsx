@@ -9,9 +9,13 @@ const PortfolioItem = ({ project }) => {
       <img
         src={project.imgUrl}
         alt={project.title}
-        className="w-full h-36 md:h-48 object-cover rounded-md mb-4"
+        className={`w-full h-36 md:h-48 object-cover rounded-md mb-4 ${
+          project?.blurry ? 'blur-md' : ''
+        }`}
       />
-      <h3 className="text-lg font-bold">{project.title}</h3>
+      <h3 className={`text-lg font-bold  ${project?.blurry ? 'blur-sm' : ''}`}>
+        {project.title}
+      </h3>
       <p className="text-sm italic mb-2">{project.type}</p>
       <p className="grow">{project.details}</p>
       <ul className="text-sm my-5">
