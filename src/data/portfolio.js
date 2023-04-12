@@ -1,11 +1,30 @@
 export default [
+   
+    {
+       title: "Themis Studio",
+       imgUrl: "/assets/projects/teachingml_kaggle_style.png",
+       stack: ["HTML", "JavaScript","NextJS","MaterialUI"],
+       repo: "",
+       demo:"",
+       details: "A powered AI Web Application for briefing and summary of large judicial texts. Aimed to reduce the workload of judges and district attorneys when working on judicial cases. ",
+       type: "Solo Project (2023) - Coming Soon"
+    },
+    {
+       title: "AMG Portfolio",
+       imgUrl: "/assets/projects/teachingml_kaggle_style.png",
+       stack: ["HTML", "JavaScript","ReactJS","ViteJS","TailwindCSS"],
+       repo: "https://github.com/BigSamu/Teaching_ML_Kaggle_Style",
+       demo:"",
+       details: "My first client! A web portfolio for my mother who is an artist! Powered by ReactJS, ViteJS and TailwindCSS grabing data from iCloud Photos API",
+       type: "Solo Project (2023) - In Progress"
+    },
     {
        title: "ChatGPT Image Creator",
        imgUrl: "/assets/projects/chatgpt_image_creator.png",
        stack: ["HTML", "JavaScript", "ReactJS", "Bootstrap", "ViteJS", "OpenAI"],
        repo: "https://github.com/BigSamu/ChatGPT_Image_Creator",
-       demo: "",
-       details: "A simple project that uses OpenAI's API to generate images based on textual prompts.",
+       demo: "https://chat-gpt-image-creator.vercel.app/",
+       details: "A simple project that uses OpenAI's API to generate images based on textual prompts. My first attempt at using OpenAI's API and my first project using ViteJS.",
        type: "Solo Project (2023)"
     },
     {
