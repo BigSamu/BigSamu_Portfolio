@@ -1,8 +1,10 @@
 import React from 'react';
 import PortfolioItem from './PortfolioItem';
-import projects from '../data/portfolio';
 import SectionTitle from './SectionTitle';
+
 import { FaGithub } from 'react-icons/fa';
+
+import projects from '../data/portfolio';
 
 const Portfolio = () => {
   return (
