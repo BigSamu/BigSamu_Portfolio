@@ -47,23 +47,23 @@ const About = () => {
             My engineering journey began when I pursued a Bachelor's Degree in
             Engineering 🎓, where I delved into a variety of topics like math
             ➕, physics 🌎, energy 🔥, mechanics 🛠️, electricity ⚡, finance 💰,
-            and programming 👨‍💻. Yep, you read that right! In Chile 🇨🇱,
-            engineering degrees take six years 🤯. However, in my case, I took
-            seven 😱 because I was fascinated about programming and computing
-            💻. I realized that my passion lay in these areas, and that's where
-            I wanted to take my career.
+            and programming 👨‍💻. Yep, you read that right! So many topics! In
+            Chile 🇨🇱, engineering degrees take six years 🤯. However, in my
+            case, I took seven 😱 because I was fascinated about programming and
+            computing 💻. I realized that my passion lay in these areas, and
+            that was where I wanted to take my career.
           </p>
 
           <p className="mb-5">
             After finishing my degree 👨‍🎓, I set my sights on building a career
             in Fintech. I was fortunate enough to work in big tech incumbents 🏢
-            and investment bank companies 🏦, where I developed specialized
-            skills. But after six years, I realized that I was drifting away
-            from my passion for coding 👨‍💻, and my skills were just sitting in a
-            drawer 🗄️. That's when I decided to take action and enroll myself in
-            a Full-Stack Development Bootcamp to refresh my skills and pursue an
-            MSc Computing Degree in the UK 🇬🇧 to further my education and pave
-            the way for a software engineering career 🖥.
+            and investment banks 🏦, where I developed specialized skills. But
+            after six years, I realized that I was drifting away from my passion
+            for coding 👨‍💻, and my skills were just sitting in a drawer 🗄️. That
+            was when I decided to take action and enroll myself in a Full-Stack
+            Development Bootcamp to refresh my skills and pursue an MSc
+            Computing Degree in the UK 🇬🇧 to further my education and pave the
+            way for a software engineering career 🖥.
           </p>
 
           <p className="mb-5">
@@ -76,13 +76,13 @@ const About = () => {
             especially when used with ReactJS and FastAPI frameworks 🙌.
           </p>
 
-          {/* <p class="mb-5">
+          <p class="mb-5">
             Throughout my career, I've proven my ability to plan, design, and
             solve real-life problems with a combination of technical and social
             skills 🤝. I'm excited to join a startup or company as a junior
             engineer, where I can bring my diverse skill set and experience to
             contribute to the team's success. 🌟
-          </p> */}
+          </p>
 
           <div className="text-center">
             <p className="text-lg font-bold underline">
@@ -100,8 +100,6 @@ const About = () => {
           </div>
         </div>
       </div>
-
-      
     </div>
   );
 };
