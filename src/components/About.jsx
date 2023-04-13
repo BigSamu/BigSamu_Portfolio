@@ -12,7 +12,7 @@ import profileCoding from '/assets/bigsamu_illustration_coding.png';
 const About = () => {
   return (
     <div className="min-h-[calc(100vh-60px)] grid place-items-center py-10 text-center md:text-left">
-      <div className="flex flex-col md:flex-row items-top gap-4 md:gap-10 w-full lg:w-10/12 ">
+      <div className="flex flex-col md:flex-row items-top gap-4 md:gap-10 w-full lg:w-11/12 ">
         <div className="w-full lg:w-2/6 order-2 md:order-1">
           <div className="max-w-xs md:max-xs mx-auto py-5">
             <img
@@ -37,7 +37,7 @@ const About = () => {
         <div className="w-full lg:w-4/6 order-1 md:order-2">
           <SectionTitle>About Me</SectionTitle>
           {about.split('\n').map((paragraph, idx) => (
-            <p className="mb-3 text-md" key={idx}>
+            <p className="mb-3" key={idx}>
               {paragraph}
             </p>
           ))}
