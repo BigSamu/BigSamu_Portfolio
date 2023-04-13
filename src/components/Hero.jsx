@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-scroll';
+import ResumePreview from './ResumePreview';
 
 import { FaGithub, FaLinkedin, FaHackerrank } from 'react-icons/fa';
 import { RxDotFilled } from 'react-icons/rx';
@@ -110,6 +111,7 @@ const Intro = () => {
             <ImProfile />
             <span className="text-xl ml-2">My CV</span>
           </a>
+          {/* <ResumePreview /> */}
         </div>
       </div>
     </div>

@@ -68,12 +68,12 @@ const About = () => {
 
           <p className="mb-5">
             Nowadays, I keep busy by working as a TA in a coding academy, where
-            I'm constantly helping students to achieve their dreams for a career in
-            tech. In my free time ⏱, I'm always learning new trends and
+            I'm constantly helping students to achieve their dreams for a career
+            in tech. In my free time ⏱, I'm always learning new trends and
             technologies 📖 and working on personal projects or jobs as a
             freelance developer 😎. I'm familiar with a range of Full-Stack
             technologies, but my favorite languages are Javascript and Python,
-            especially when used with ReactJS and FastAPI frameworks 🙌.  
+            especially when used with ReactJS and FastAPI frameworks 🙌.
           </p>
 
           {/* <p class="mb-5">
@@ -100,6 +100,8 @@ const About = () => {
           </div>
         </div>
       </div>
+
+      
     </div>
   );
 };

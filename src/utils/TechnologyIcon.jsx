@@ -7,7 +7,7 @@ import {
   DiDjango, DiRuby, DiPostgresql, DiMysql, DiSqllite
 } from 'react-icons/di';
 import {
-  SiJavascript, SiTypescript, SiJquery, SiSwiper, SiGooglefonts,SiFontawesome, SiNextdotjs, SiVite, SiTailwindcss, SiCplusplus, SiExpress, SiSpring, SiFastapi, SiFlask, SiMongodb, SiSolidity, SiRubysinatra, SiPypi, SiMui, SiOpenai, SiRedux, SiJsonwebtokens, SiWireshark
+  SiJavascript, SiTypescript, SiJquery, SiSwiper, SiGooglefonts,SiFontawesome, SiNextdotjs, SiVite, SiTailwindcss, SiCplusplus, SiExpress, SiSpring, SiFastapi, SiFlask, SiMongodb, SiSolidity, SiRubysinatra, SiPypi, SiMui, SiOpenai, SiRedux, SiJsonwebtokens, SiWireshark, SiVercel
 } from 'react-icons/si';
 import {
   TbBrandVscode
@@ -62,6 +62,7 @@ export const getTechnologyIcon = (technology) => {
     'NPM': <FaNpm />,
     'PyPI': <SiPypi />,
     'OpenAI': <SiOpenai />,
+    'Vercel': <SiVercel/>,
 
     // Security
     'OAuth': <img src="https://static-00.iconduck.com/assets.00/oauth-icon-512x511-baa2vilm.png"/>,
