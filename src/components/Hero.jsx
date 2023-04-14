@@ -5,6 +5,8 @@ import ResumePreview from './ResumePreview';
 import { FaGithub, FaLinkedin, FaHackerrank } from 'react-icons/fa';
 import { RxDotFilled } from 'react-icons/rx';
 import { ImProfile } from 'react-icons/im';
+
+import userDetails from '../data/userDetails';
 import profilePicture from '/assets/bigsamu.png';
 
 const Intro = () => {
@@ -103,7 +105,7 @@ const Intro = () => {
 
         <div className="mt-3">
           <a
-            href="https://1drv.ms/b/s!Asber9wcpjf8j4V8Ku7CtswQJm90eA?e=bxphL2"
+            href={userDetails.cv_url}
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center text-xl py-2 px-10 font-medium rounded-lg text-white bg-gradient-to-r from-yellow-500 to-pink-500 drop-shadow-md hover:from-pink-500 hover:to-yellow-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-pink-500 transition-all"

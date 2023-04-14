@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-scroll';
 import { Disclosure } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
@@ -15,19 +15,43 @@ const classNames = (...classes) => {
   return classes.filter(Boolean).join(' ');
 };
 
-const offset_navbar = -60;
-
 const Navbar = ({ theme, setTheme }) => {
   const [isDarkMode, setIsDarkMode] = useState(false);
+  
+  const [offsetNavbar, setOffsetNavabr] = useState();
+  const navbarRef = React.createRef(null);
+  const resizeObserver = useRef(null);
+
+  useEffect(() => {
+    if (navbarRef.current) {
+      resizeObserver.current = new ResizeObserver((entries) => {
+        for (const entry of entries) {
+          const outerHeight = -1 * entry.contentRect.height;
+          setOffsetNavabr(outerHeight);
+        }
+      });
+      resizeObserver.current.observe(navbarRef.current);
+    }
+
+    return () => {
+      if (resizeObserver.current) {
+        resizeObserver.current.disconnect();
+      }
+    };
+
+  }, []);
+
   const handleThemeSwitch = () => {
     setTheme(theme === 'dark' ? 'light' : 'dark');
     setIsDarkMode(!isDarkMode);
+    console.log(offsetNavbar);
   };
 
   return (
     <Disclosure
       as="nav"
       className="sticky top-0 left-0 w-full z-50 bg-stone-900"
+      ref={navbarRef}
     >
       {({ open }) => (
         <>
@@ -50,7 +74,7 @@ const Navbar = ({ theme, setTheme }) => {
                   to="hero_section"
                   spy={true}
                   smooth={true}
-                  offset={offset_navbar}
+                  offset={offsetNavbar}
                   className="flex items-center cursor-pointer"
                 >
                   <img
@@ -74,7 +98,7 @@ const Navbar = ({ theme, setTheme }) => {
                         to={item.href}
                         spy={true}
                         smooth={true}
-                        offset={offset_navbar}
+                        offset={offsetNavbar}
                         className="cursor-pointer text-stone-300 text-lg"
                       >
                         {item.name}
@@ -87,7 +111,7 @@ const Navbar = ({ theme, setTheme }) => {
                     to="hero_section"
                     spy={true}
                     smooth={true}
-                    offset={offset_navbar}
+                    offset={offsetNavbar}
                     className="flex items-center cursor-pointer"
                   >
                     <h1 className="text-lg text-stone-300 font-bold">
@@ -128,7 +152,7 @@ const Navbar = ({ theme, setTheme }) => {
                       to={item.href}
                       spy={true}
                       smooth={true}
-                      offset={offset_navbar}
+                      offset={offsetNavbar}
                       className="cursor-pointer text-stone-300 text-lg"
                     >
                       {item.name}

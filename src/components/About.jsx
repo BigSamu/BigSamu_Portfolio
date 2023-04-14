@@ -7,6 +7,7 @@ import tech_stack from '../data/tech_stack';
 import { getTechnologyIcon } from '../utils/TechnologyIcon.jsx';
 
 import about from '../data/about';
+import userDetails from '../data/userDetails';
 import profileCoding from '/assets/bigsamu_illustration_coding.png';
 
 const About = () => {
@@ -24,7 +25,7 @@ const About = () => {
 
           <div className="flex justify-center m-5">
             <a
-              href="https://1drv.ms/b/s!Asber9wcpjf8j4V8Ku7CtswQJm90eA?e=bxphL2"
+              href={userDetails.cv_url}
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center text-xl py-2 px-10 font-medium rounded-lg text-white bg-gradient-to-r from-yellow-500 to-pink-500 drop-shadow-md hover:from-pink-500 hover:to-yellow-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-pink-500 transition-all"
