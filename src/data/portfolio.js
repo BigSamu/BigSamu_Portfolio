@@ -17,7 +17,7 @@ export default [
     repo: 'https://github.com/BigSamu/Teaching_ML_Kaggle_Style',
     demo: 'https://anamariagutierrez.art',
     details:
-      'My first client! A web portfolio for my mother who is an artist! Powered by ReactJS, ViteJS and TailwindCSS and grabing data from iCloud Photos API.',
+      'A web portfolio for my mother, who is an artist! Simple and minimalist design used to showcase her work. Project powered by ReactJS, ViteJS and TailwindCSS.',
     type: 'Solo Project (2023) - In Progress',
     
   },
@@ -50,18 +50,18 @@ export default [
     repo: 'https://github.com/BigSamu/Teaching_ML_Kaggle_Style',
     demo: '',
     details:
-      'Web Application intended for clarifying ML overfitting concept to students from Imperial College Business School. As part of group project from MSc degree being in charge of frontend side',
+      'Web Application solution for clarifying ML overfitting concept to students from Imperial College Business School. Project as part of a group assignment from MSc CS degree, being in charge of the development of the frontend side of the application.',
     type: 'MSc CS degree - Group Project (2021)',
     
   },
   {
     title: '567 Bakery',
     imgUrl: '/assets/projects/567_bakery_2.png',
-    stack: ['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'Sass', 'Jquery', 'Swiper'],
+    stack: ['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'Sass', 'JQuery', 'Swiper'],
     repo: 'https://github.com/BigSamu/567_Bakery',
     demo: 'https://bigsamu.github.io/567_Bakery/',
     details:
-      'My first ende-to-end project! A simple vanilla website for a local bakery in my hometown. Implement all learnings from my Bootcamp at Coding Dojo including external libraries such as Bootstrap, Saas, JQuery and Saas.',
+      'My first end-to-end project! A simple vanilla website for a local bakery in my hometown. Implement all learnings from my Bootcamp at Coding Dojo, including external libraries such as Bootstrap, Saas, JQuery and Swipper.',
     type: 'Online Bootcamp - Final Project (2020)',
     
   },
