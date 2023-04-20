@@ -44,7 +44,7 @@ export const getTechnologyIcon = (technology) => {
     'Flask': <SiFlask />,
     'Sinatra': <SiRubysinatra />,
     'Redux': <SiRedux />,
-    'Jquery': <SiJquery />,
+    'JQuery': <SiJquery />,
     'Swiper': <SiSwiper/>,
     
 
